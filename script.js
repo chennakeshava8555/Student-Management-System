@@ -14,7 +14,8 @@ function addStudent(){
         return;
     }
     if(age<18){
-        return document.getElementById("message").textContent="Age must be 18 or Above";
+        document.getElementById("message").textContent="Age must be 18 or Above";
+        return;
         
     }
     // creating student objects
