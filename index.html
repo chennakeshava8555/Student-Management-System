@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration</title>
+    <style>
+        form,h1,h3{
+            text-align: center;
+            color: rgb(225, 225, 11);
+        }
+    </style>
+</head>
+<body>
+    <h1>Student Registration Form</h1>
+    <form id="StudentForm">
+        <input type="text" id="name" placeholder="Enter Name"><br><br>
+        <input type="email" name="" id="email" placeholder="Enter your email id"> <br><br>
+        <input type="number" name="" id="age" placeholder="Enter your age"><br><br>
+        <input type="text" name="" id="course" placeholder="Enter the course to join"> <br><br>
+        <button type="submit">Register</button>
+    </form>
+    <p id="message"></p>
+    <h3>Registered Students</h3>
+    <table border="1" id="studentTable">
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Age</th>
+            <th>Course</th>
+        </tr>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>
