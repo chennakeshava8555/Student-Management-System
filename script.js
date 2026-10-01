@@ -53,11 +53,3 @@ function displayStudents(){
         table.innerHTML+=row;
     };
 }
-
-
-
-
-
-
-
-
