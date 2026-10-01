@@ -54,17 +54,6 @@ function displayStudents(){
     };
 }
 
-//1.import * as math from'./math.js';
-//  console.log(math.pi);
-//2.import{pi,add as sum} from './math.js';
-//  console.log(pi);
-//  console.log(sum(2,3));
-// console.log(math.add(2,3));
-// import a from './math.js';
-// console.log(a(10,30));
-
-// import user from './math.js';
-// console.log(user.name);
 
 
 
