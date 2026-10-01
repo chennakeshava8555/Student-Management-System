@@ -5,9 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Student Registration</title>
     <style>
-        form,h1,h3{
+        form,h1{
             text-align: center;
             color: rgb(225, 225, 11);
+        }
+        h3{ 
+            color: rgb(208, 12, 149);
         }
     </style>
 </head>
@@ -21,8 +24,8 @@
         <button type="submit">Register</button>
     </form>
     <p id="message"></p>
-    <h3>Registered Students</h3>
-    <table border="1" id="studentTable">
+    <h3>Registered Students Details</h3>
+    <table border="1" id="studentTable" >
         <tr>
             <th>Name</th>
             <th>Email</th>
@@ -31,6 +34,6 @@
         </tr>
     </table>
 
-    <script src="script.js"></script>
+    <script type="module" src="script.js"></script>
 </body>
 </html>
