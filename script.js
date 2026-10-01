@@ -11,10 +11,12 @@ function addStudent(){
     let age=document.getElementById("age".value);
     let course=document.getElementById("course".value);
     if(name==="" || email==="" || age==="" || course==="" ){
-        return document.getElementById("message").textContent="Fill all the fields";
+        document.getElementById("message").textContent="Fill all the fields";
+        return;
     }
-    if(age>18){
-        return document.getElementById("message").textContent="Age must be 18 or Above";
+    if(age<18){
+        document.getElementById("message").textContent="Age must be 18 or Above";
+        return;
     }
     // creating student objects
     let student={
@@ -47,7 +49,7 @@ function displayStudents(){
         <td>${students[i].name.value}</td>
         <td>${students[i].email.value}</td>
         <td>${students[i].age}</td>
-        <td>${students[i].course}</td>
+        <td>${students[i].courseS}</td>
         </tr>
         `;
         table.innerHTML+=row;
